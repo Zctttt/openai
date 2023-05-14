@@ -1,0 +1,12 @@
+POST localhost:8081/chat/completions
+Content-Type: application/stream+json
+
+{
+  "messages": [
+    {
+      "role": "",
+      "content": "",
+      "name": ""
+    }
+  ]
+}

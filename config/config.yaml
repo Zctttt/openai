@@ -1,0 +1,20 @@
+chatgpt:
+  token: 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  #从官方获取的api token
+  ip: 0.0.0.0                #web服务ip
+  port : 8081                #web端口
+  requestSecret: oliver      #接口请求sign
+
+chat_mysql:
+  host: 127.0.0.1        #mysql ip
+  port: 3306
+  username: root
+  password: 123456
+  database: go-chatgpt
+market_mysql:
+  host: 127.0.0.1        #mysql ip
+  port: 3306
+  username: root
+  password: 123456
+  database: fuint-db
+
+jwt_secret: lingfeng
